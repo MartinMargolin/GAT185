@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class SpacePlayer : MonoBehaviour
 {
-    [Range(0, 10)] [SerializeField] [Tooltip("Oh shit a rat")] public float speed = 5;
+    [Range(0, 200)] [SerializeField] [Tooltip("Oh shit a rat")] public float speed = 5;
 
 
     [SerializeField] AudioSource audioSource;
 
 
-    // Update is called once per frame
     void Update()
     {
         Vector3 direction = Vector3.zero;
@@ -18,8 +17,9 @@ public class SpacePlayer : MonoBehaviour
         direction.x = Input.GetAxis("Horizontal");
         direction.z = Input.GetAxis("Vertical");
 
+        transform.Translate(direction * speed * Time.deltaTime);
 
-        transform.position += direction * speed * Time.deltaTime;
+        // transform.position += direction * speed * Time.deltaTime;
 
     }
 

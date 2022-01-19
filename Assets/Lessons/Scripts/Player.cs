@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [Range(0,10)][SerializeField][Tooltip("Oh shit a rat")]public float speed = 5;
+    [Range(0,200)][SerializeField][Tooltip("Oh shit a rat")]public float speed = 5;
         
 
         [SerializeField] AudioSource audioSource;
