@@ -102,18 +102,6 @@ MonoBehaviour:
   direction: {x: 0, y: 0, z: 1}
   speed: 30
   space: 1
---- !u!114 &7032368053617265687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8169164511681284310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 272d2794e0e003342be4cc8a4547429e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3132900358797203430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,3 +117,16 @@ MonoBehaviour:
   deathPrefab: {fileID: 0}
   destroyOnDeath: 1
   maxHealth: 100
+--- !u!114 &7032368053617265687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8169164511681284310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272d2794e0e003342be4cc8a4547429e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 30
