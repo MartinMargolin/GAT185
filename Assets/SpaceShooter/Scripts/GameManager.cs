@@ -30,7 +30,7 @@ public class GameManager : Singleton<GameManager>
         set
         {
             score = value;
-            scoreUI.text = score.ToString();
+           // scoreUI.text = score.ToString();
         }
     }
     public int Lives { get; set; }
